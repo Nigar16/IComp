@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="shortcut icon" href="asset/img/shorcut-icon.jpg" type="image/png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="asset/css/style.css">
+  <title>Bakıda komputer maqazini</title>
+</head>
+
+<body>
+  <header class="container-fluid">
+    <nav class="row justify-content-between align-items-baseline ">
+      <div class="col-7 d-none d-lg-inline  ">
+        <ul class="d-flex justify-content-around">
+          <li ><a style="color: black;" href="#">Zəmanət</a></li>
+          <li><a style="color: black;" href="#">Hissə-hissə ödəmə</a></li>
+          <li><a  style="color: black;" href="#">Prays List</a></li>
+          <li><a style="color: black;" href="#">Dükanımız haqqında</a></li>
+          <li><a style="color: black;" href="#">Əlaqə</a></li>
+          <li><a  style="color: red" href="#">Kompüter yığılması</a></li>
+        </ul>
+      </div>
+      <div style="color: gray" class="col-2 time d-none d-lg-inline "><i class="far fa-clock"></i> 10:00 dan 19:00 dək</div>
+      <div class="col-2 d-none d-lg-inline "><i class="far fa-user"></i> <a href="#">Daxil ol</a></div>
+    </nav>
+    <div class="row justify-content-between  align-items-center">
+      <div class="col-3 d-inline d-lg-none">
+        <span><i class="fas fa-bars" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft"></i></span>
+      </div>
+      <div class="col-4 ">
+        <div class="d-flex">
+          <img src="asset/img/logo.svg" alt="logo" class="logo">
+          <p class="d-none d-lg-inline" style="font-size: 14px;">Kompüter və elektronika <br> avadanlığı dükanı</p>
+        </div>
+      </div>
+      <div class="col-3 d-none d-lg-inline">
+        <span>Bülbül 58D<a href="#"> (Dükanımız xəritədə)</a></span>
+        <p style="font-size: 12px;">(Dəri Zöhrəvi dispanserdən 50 metr aşağı)</p>
+      </div>
+      <div class="col-2 d-none d-lg-inline">
+        <span><i class="fab fa-whatsapp"></i></span>
+        <span>+994 (70) 244 47 47</span><br>
+        <span>+994 (012) 598 27 47</span>
+      </div>
+      <div class="col-1 d-none d-lg-inline">
+        <a href="#"><img src="asset/img/facebook.svg" alt="fb"></a>
+        <a href="#"><img src="asset/img//instagram.svg" alt="insta"></a>
+      </div>
+      <div class=" col-3 col-lg-1 shopping btn btn-primary position-relative"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <span><i class="fas fa-shopping-bag "></i></span>
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
+          0
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-12">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Məhsul axtarışı">
+          <button class="btn" type="button"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
+    <div class="offcanvas-header ">
+        <h5  id="offcanvasLeftLabel"> MAĞAZA KATALOQU </h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="category-body">
+        <ul >
+          <li ><a  href="#"><img src="asset/img/console_1.svg"> Gaming Zone</a>
+          
+          </li>
+          <li ><a  href="#"><img src="asset/img/computer_1.svg"> Kompüterlər</a>
+        
+          </li>
+          <li><a  href="#"><img src="asset/img/laptop.svg"> Noutbuklar</a>
+          
+          </li>
+          <li><a  href="#"><img src="asset/img/mono.svg"> Monobloklar</a>
+            
+          </li>
+          <li ><a href="#"><img src="asset/img/server.svg"> Serverlər</a>
+            
+          </li>
+          <li><a  href="#"><img src="asset/img/workstation.svg"> İş stansiyaları</a>
+          </li>
+          <li ><a  href="#"><img src="asset/img/photo-camera-vintage.svg"> Fotoaparatlar</a>
+          </li>
+          <li><a href="#"><img src="asset/img/tablet.svg"> Planşetlər</a></li>
+          <li><a href="#"><img src="asset/img/ebook.svg"> Elektron kitablar</a></li>
+          <li><a href="#"><img src="asset/img/computer-graphic.svg"> Monitorlar</a></li>
+          <li><a href="#"><img src="asset/img/motherboard_1.svg"> Ana platalar</a></li>
+          <li><a href="#"><img src="asset/img/chip_1.svg"> Prosessorlar</a></li>
+          <li><a href="#"><img src="asset/img/memory.svg"> Operativ yaddaşlar</a></li>
+          <li><a href="#"><img src="asset/img/cooling-fan.svg"> Kulerlər</a></li>
+          <li><a href="#"><img src="asset/img/videocart.svg"> Videokartlar</a></li>
+          <li><a href="#"><img src="asset/img/hdd.svg"> Yaddaş qurğuları</a></li>
+          <li><a href="#"><img src="asset/img/tools-and-utensils.svg"> Optik qurğular</a></li>
+          <li><a href="#"><img src="asset/img/cpu_1.svg"> Korpuslar</a></li>
+          <li><a href="#"><img src="asset/img/printer.svg"> Printer və ofis texnikası</a></li>
+          <li><a href="#"><img src="asset/img/ink-cartridge.svg"> Kartriclər</a></li>
+          <li><a href="#"><img src="asset/img/projector.svg"> Proyektorlar</a></li>
+          <li><a href="#"><img src="asset/img/scanner.svg"> Skanerlərs</a></li>
+          <li><a href="#"><img src="asset/img/mobile.svg"> Telefonlar</a></li>
+          <li><a href="#"><img src="asset/img/cloud-computing_1.svg"> Periferik hissələr</a></li>
+          <li><a href="#"><img src="asset/img/wifi.svg"> Şəbəkə avadanlıqları</a></li>
+          <li><a href="#"><img src="asset/img/software.svg"> Proqram təminatı</a></li>
+          <li><a href="#"><img src="asset/img/navigator.svg"> Avtomobil aksesuarları</a></li>
+          <li><a href="#"><img src="asset/img/mouse.svg"> Kompüter aksesuarları </a></li>
+          <li><a href="#"> <img src="asset/img/bag.svg">Noutbuk aksesuarları </a></li>
+          <li><a href="#"><img src="asset/img/laptop_1.svg"> Noutbuk ehtiyyat hissələri</a></li>
+          <li><a href="#"><img src="asset/img/console.svg"> Oyun qurğuları</a></li>
+          <li><a href="#"><img src="asset/img/phone.svg"> Telefon və planşet aksessuarları </a></li>
+          <li><a href="#"><img src="asset/img/speaker.svg"> Səs qurğuları</a></li>
+          <li><a href="#"><img src="asset/img/responsive.svg"> İşlənmiş noutbuk, kompüter və hissələr</a></li>
+          <li><a href="#"><img src="asset/img/adapter.svg"> Kabel və Ucluqlar</a></li>
+          <li><a href="#"><img src="asset/img/laminator.svg"> Ofis avadanlıqları</a></li>
+        </ul>
+        
+      </div>
+    </div>
+
+    <!-- <div id="sticky-checkout" class="sticky-bottom mb-4 mx-3 d-flex align-items-center justify-content-between">
+        <a id="checkout" href="checkout.htm">Checkout</a>
+         <div id="price-total"> $8.25</div>
+    </div> -->
+  </div>
+
+  <div tabindex="-1" class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Zənbil</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="text-center " style="color: red;">Zənbiliniz boşdur!</p>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+  <section class="container-fluid pt-4">
+    <div class="row">
+      <div class="col-3 ms-3 me-3 d-none d-lg-inline">
+        <div class="category-header"><img src="asset/img/menu.svg" alt="Menu"> MAĞAZA KATALOQU</div>
+        <div class="category-body">
+          <ul >
+            <li class="dropdown dropend"><a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" href="#"><img src="asset/img/console_1.svg"> Gaming Zone</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"> Gaming Oturacaqlar</a></li>
+                </ul>
+            </li>
+            <li class="dropdown dropend"><a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" href="#"><img src="asset/img/computer_1.svg"> Kompüterlər</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"> Acer Kompüterləri</a></li>
+                <li><a class="dropdown-item" href="#"> Asus Mini Kompüterləri</a></li>
+                <li><a class="dropdown-item" href="#"> Gigabyte Kompüterləri</a></li>
+                <li><a  class="dropdown-item" href="#"> HP Kompüterləri</a></li>
+                <li><a  class="dropdown-item" href="#">IComp Kompüterləri</a></li>
+                <li><a  class="dropdown-item" href="#">  Lenovo Kompüterləri</a></li>
+                </ul>
+            </li>
+            <li class="dropdown dropend"><a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" href="#"><img src="asset/img/laptop.svg"> Noutbuklar</a>
+              <ul class="dropdown-menu">
+                <li><a  class="dropdown-item" href="#">IComp Kompüterləri</a></li>
+                <li><a  class="dropdown-item" href="#">  Lenovo Kompüterləri</a></li>
+                </ul>
+            </li>
+            <li class="dropdown dropend"><a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" href="#"><img src="asset/img/mono.svg"> Monobloklar</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"> Gigabyte Kompüterləri</a></li>
+                <li><a  class="dropdown-item" href="#"> HP Kompüterləri</a></li>
+                <li><a  class="dropdown-item" href="#">IComp Kompüterləri</a></li>
+                <li><a  class="dropdown-item" href="#">  Lenovo Kompüterləri</a></li>                </ul>
+            </li>
+            <li class="dropdown dropend"><a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" href="#"><img src="asset/img/server.svg"> Serverlər</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"> Serverlər</a></li>
+                </ul>
+            </li>
+            <li><a  href="#"><img src="asset/img/workstation.svg"> İş stansiyaları</a>
+            </li>
+            <li ><a  href="#"><img src="asset/img/photo-camera-vintage.svg"> Fotoaparatlar</a>
+            </li>
+            <li><a href="#"><img src="asset/img/tablet.svg"> Planşetlər</a></li>
+            <li><a href="#"><img src="asset/img/ebook.svg"> Elektron kitablar</a></li>
+            <li><a href="#"><img src="asset/img/computer-graphic.svg"> Monitorlar</a></li>
+            <li><a href="#"><img src="asset/img/motherboard_1.svg"> Ana platalar</a></li>
+            <li><a href="#"><img src="asset/img/chip_1.svg"> Prosessorlar</a></li>
+            <li><a href="#"><img src="asset/img/memory.svg"> Operativ yaddaşlar</a></li>
+            <li><a href="#"><img src="asset/img/cooling-fan.svg"> Kulerlər</a></li>
+            <li><a href="#"><img src="asset/img/videocart.svg"> Videokartlar</a></li>
+            <li><a href="#"><img src="asset/img/hdd.svg"> Yaddaş qurğuları</a></li>
+            <li><a href="#"><img src="asset/img/tools-and-utensils.svg"> Optik qurğular</a></li>
+            <li><a href="#"><img src="asset/img/cpu_1.svg"> Korpuslar</a></li>
+            <li><a href="#"><img src="asset/img/printer.svg"> Printer və ofis texnikası</a></li>
+            <li><a href="#"><img src="asset/img/ink-cartridge.svg"> Kartriclər</a></li>
+            <li><a href="#"><img src="asset/img/projector.svg"> Proyektorlar</a></li>
+            <li><a href="#"><img src="asset/img/scanner.svg"> Skanerlərs</a></li>
+            <li><a href="#"><img src="asset/img/mobile.svg"> Telefonlar</a></li>
+            <li><a href="#"><img src="asset/img/cloud-computing_1.svg"> Periferik hissələr</a></li>
+            <li><a href="#"><img src="asset/img/wifi.svg"> Şəbəkə avadanlıqları</a></li>
+            <li><a href="#"><img src="asset/img/software.svg"> Proqram təminatı</a></li>
+            <li><a href="#"><img src="asset/img/navigator.svg"> Avtomobil aksesuarları</a></li>
+            <li><a href="#"><img src="asset/img/mouse.svg"> Kompüter aksesuarları </a></li>
+            <li><a href="#"> <img src="asset/img/bag.svg">Noutbuk aksesuarları </a></li>
+            <li><a href="#"><img src="asset/img/laptop_1.svg"> Noutbuk ehtiyyat hissələri</a></li>
+            <li><a href="#"><img src="asset/img/console.svg"> Oyun qurğuları</a></li>
+            <li><a href="#"><img src="asset/img/phone.svg"> Telefon və planşet aksessuarları </a></li>
+            <li><a href="#"><img src="asset/img/speaker.svg"> Səs qurğuları</a></li>
+            <li><a href="#"><img src="asset/img/responsive.svg"> İşlənmiş noutbuk, kompüter və hissələr</a></li>
+            <li><a href="#"><img src="asset/img/adapter.svg"> Kabel və Ucluqlar</a></li>
+            <li><a href="#"><img src="asset/img/laminator.svg"> Ofis avadanlıqları</a></li>
+          </ul>
+          
+        </div>
+
+        <div class="d-none d-lg-inline" id="news-articles">
+          <h4>Xəbərlər/ Məqalələr</h4>
+          <div>
+            <img src="asset/img/qulaqlq_nec_semli.jpg">
+            <small class="ms-3 mb-3"><a style="color:green " href="#"><i class="fas fa-circle"></i> BÜTÜN MƏQALƏLƏR</a></small><br>
+            <a  class="ms-3" href="#">Qulaqlıq necə seçməli?</a>
+          </div>
+          <div>
+            <img src="asset/img/digital-cameras2.jpg">
+            <small class="ms-3 mb-3"><a style="color:var(--siteColor) " href="#"><i class="fas fa-circle"></i> BÜTÜN XƏBƏRLƏR</a></small><br>
+            <a  class="ms-3" href="#">iComp internet mağazasında rəqəmsal fotoapparatların sifarişi mümkündür!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-8 ">
+        <div class=" d-flex justify-content-between">
+          <div id="carousel_1" class="carousel slide w-100 w-lg-65" data-bs-ride="carousel" data-interval="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carousel_1" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel_1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel_1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carousel_1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carousel_1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="asset/img/slide1_1.webp" class="d-block w-100 h-100">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="asset/img/slide1_2.webp" class="d-block w-100 h-100 ">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="asset/img/slide1_3.webp" class="d-block w-100 h-100">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="asset/img/slide1_4.webp" class="d-block  w-100 h-100">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="asset/img/slide1_5.webp" class="d-block  w-100 h-100 ">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel_1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div id="carousel_2" class="carousel slide d-none d-md-inline" data-bs-ride="carousel" data-interval="false" `>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carousel_2" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel_2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="asset/img/slide2_1.webp" class="d-block w-100 h-100">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="asset/img/slide2_2.webp" class="d-block  w-100 h-100">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel_2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="mt-5 " id="logos">
+          <ul class=" d-none d-md-flex justify-content-between flex-wrap">
+            <li><a href="#"><img src="asset/img/asus.png"></a></li>
+            <li><a href="#"><img src="asset/img/msi.png"></a></li>
+            <li><a href="#"><img src="asset/img/hp.png"></a></li>
+            <li><a href="#"><img src="asset/img/razer.png"></a></li>
+            <li><a href="#"><img src="asset/img/steelseries.png"></a></li>
+            <li><a href="#"><img src="asset/img/lenovo.png"></a></li>
+            <li><a href="#"><img src="asset/img/corsair.png"></a></li>
+          </ul>
+        </div>
+
+     <!-- <div  id="popular-category">
+
+          <div class="d-flex ">
+            <a href="#">
+              <img src="asset/img/laptop.svg" alt="laptop">
+              <span class="d-none d-xl-inline">Noutbuklar</span>
+            </a>
+            <a href="#">
+              <img src="asset/img/chip_1.svg" alt="processor">
+              <span  class="d-none d-xl-inline">Prosessorlar</span>
+            </a>
+            <a href="#">
+              <img src="asset/img/cloud-computing_1.svg" alt="periferiya">
+              <span class="d-none d-xl-inline">Periferiya</span>
+            </a>
+            <a href="#">
+              <img src="asset/img/server.svg" alt="server">
+              <span class="d-none d-xl-inline">Serverlər</span>
+            </a>
+            <a href="#">
+              <img src="asset/img/console_1.svg" alt="konsol">
+              <span class="d-none d-xl-inline">Gaming</span>
+            </a>
+            <a href="#">
+              <img src="asset/img/tablet.svg" alt="tablet">
+              <span class="d-none d-xl-inline" style="padding-right:28px;">Planşetlər</span>
+            </a>
+          </div>
+        </div>
+ -->
+
+        <div id="newly-entered">
+          <h2>Yeni daxil olanlar</h2>
+          <div class="row ">
+            <div class="col-12 col-sm-6 col-lg-3 card text-center">
+              <img src="asset/img/xiaomi_!C.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Xiaomi Mi 1C</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+                <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">299 <sup>azn</sup></p>
+                <div class="product-buttons">
+                  <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i><span class=" d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                  <div class="d-flex">
+                    <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                    <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3  card text-center" >
+              <img src="asset/img/Asus_Vivobook.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Asus Vivobook</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+              <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">1 159 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i> <span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3  card text-center" >
+              <img src="asset/img/transcend_4tb.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Transcend 4TB</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+                <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">249 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i><span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 card text-center" >
+              <img src="asset/img/logitech_p710e.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Logitech P710E</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+              <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">299 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i> <span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-12 col-sm-6 col-lg-3 card text-center">
+              <img src="asset/img/xiaomi_!C.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Xiaomi Mi 1C</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+                <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">299 <sup>azn</sup></p>
+                <div class="product-buttons">
+                  <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i><span class=" d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                  <div class="d-flex">
+                    <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                    <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3  card text-center" >
+              <img src="asset/img/Asus_Vivobook.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Asus Vivobook</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+              <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">1 159 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i> <span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3  card text-center" >
+              <img src="asset/img/transcend_4tb.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Transcend 4TB</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+                <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">249 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i><span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 card text-center" >
+              <img src="asset/img/logitech_p710e.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Logitech P710E</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+              <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">299 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i> <span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-12 col-sm-6 col-lg-3 card text-center">
+              <img src="asset/img/xiaomi_!C.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Xiaomi Mi 1C</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+                <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">299 <sup>azn</sup></p>
+                <div class="product-buttons">
+                  <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i><span class=" d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                  <div class="d-flex">
+                    <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                    <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3  card text-center" >
+              <img src="asset/img/Asus_Vivobook.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Asus Vivobook</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+              <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">1 159 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i> <span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3  card text-center" >
+              <img src="asset/img/transcend_4tb.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Transcend 4TB</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+                <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">249 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i><span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 card text-center" >
+              <img src="asset/img/logitech_p710e.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Logitech P710E</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+              <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">299 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i> <span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-12 col-sm-6 col-lg-3 card text-center">
+              <img src="asset/img/xiaomi_!C.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Xiaomi Mi 1C</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+                <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">299 <sup>azn</sup></p>
+                <div class="product-buttons">
+                  <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i><span class=" d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                  <div class="d-flex">
+                    <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                    <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3  card text-center" >
+              <img src="asset/img/Asus_Vivobook.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Asus Vivobook</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+              <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">1 159 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i> <span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3  card text-center" >
+              <img src="asset/img/transcend_4tb.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Transcend 4TB</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+                <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">249 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i><span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 card text-center" >
+              <img src="asset/img/logitech_p710e.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Logitech P710E</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+              <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">299 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i> <span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-12 col-sm-6 col-lg-3 card text-center">
+              <img src="asset/img/xiaomi_!C.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Xiaomi Mi 1C</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+                <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">299 <sup>azn</sup></p>
+                <div class="product-buttons">
+                  <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i><span class=" d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                  <div class="d-flex">
+                    <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                    <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3  card text-center" >
+              <img src="asset/img/Asus_Vivobook.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Asus Vivobook</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+              <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">1 159 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i> <span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3  card text-center" >
+              <img src="asset/img/transcend_4tb.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Transcend 4TB</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+                <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">249 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i><span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 card text-center" >
+              <img src="asset/img/logitech_p710e.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Logitech P710E</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+              <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">299 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i> <span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-12 col-sm-6 col-lg-3 card text-center">
+              <img src="asset/img/xiaomi_!C.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Xiaomi Mi 1C</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+                <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">299 <sup>azn</sup></p>
+                <div class="product-buttons">
+                  <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i><span class=" d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                  <div class="d-flex">
+                    <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                    <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3  card text-center" >
+              <img src="asset/img/Asus_Vivobook.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Asus Vivobook</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+              <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">1 159 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i> <span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3  card text-center" >
+              <img src="asset/img/transcend_4tb.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Transcend 4TB</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+                <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">249 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i><span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 card text-center" >
+              <img src="asset/img/logitech_p710e.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Logitech P710E</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+              <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">299 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i> <span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-12 col-sm-6 col-lg-3 card text-center">
+              <img src="asset/img/xiaomi_!C.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Xiaomi Mi 1C</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+                <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">299 <sup>azn</sup></p>
+                <div class="product-buttons">
+                  <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i><span class=" d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                  <div class="d-flex">
+                    <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                    <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3  card text-center" >
+              <img src="asset/img/Asus_Vivobook.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Asus Vivobook</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+              <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">1 159 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i> <span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3  card text-center" >
+              <img src="asset/img/transcend_4tb.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Transcend 4TB</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+                <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">249 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i><span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 card text-center" >
+              <img src="asset/img/logitech_p710e.webp" class="card-img-top mx-auto" >
+              <div class="card-body">
+                <h6 class="mt-2">Logitech P710E</h6>
+                <small>23.8 FHD | IPS 60 Hz | Flicker Free | VGA | HDMI</small>
+              <p class="mt-2" style="color:var(--siteColor) ;font: bold 20px var(--open);">299 <sup>azn</sup></p>
+              <div class="product-buttons">
+                <button class="mb-1 btn btn-success"> <i class="fas fa-credit-card"></i> <span class="d-inline d-sm-none d-md-inline">  Hissə-hissə ödə!</span></button>
+                <div class="d-flex">
+                  <button class="me-1 btn btn-primary"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Səbətə</span></button>
+                  <button class="btn btn-danger"><i class="fas fa-shopping-bag "></i> <span class="d-none d-xl-inline">Tez sifarış</span></button>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+         
+   
+      
+        </div>
+
+        <div>
+          <h3>Kompüter və ofis texnikasının Bakıda kompüter mağazası və saytında ucuz qiymətə satışı</h3>
+          <p>Bakıda original kompüter texnikası ucuz qiymətə almaq üçün dükan axtarırsınız? Bizim dükanımızdan ucuz
+            qiymətə, noutbuklar, planşetlər, serverlər və digər elektron avadanlıqlarını «iComp» kompüter dükanında
+            sifariş edə bilərsiz.
+
+            Biz sizə geniş çeşiddə kompüter avadanlıqları və texnikasını Bakı və Azərbaycanda ucuz qiymətə təklif
+            edirik. «iComp» kompüter mağazası sizə uyğun olan texnikanı və idarələr üçün DATA mərkəzlərin yaradılması,
+            ofislər üçün kompüterlər və ya sadəcə sörfinq üçün kompüter çeşidləri təqdim edir.</p>
+
+          <h4>«iComp» computer online shop, kompüter internet-maqazin üstünlüyü
+          </h4>
+          <p>«iComp» kompüter mağazası sizə dünya brendlərinin tam orijinal məhsullarını təqdim etməkdən qürur duyur.
+            Bakıda ucuz qiymətə kompüterlər «iComp» kompüter dükanından sifariş edə bilərsiniz. Biz uzun müddətdir ki
+            Azərbaycanda və Bakıda yüksək keyfiyyətli kompüter avadanlıqları ilə öz müştərilərimizə xidmət göstəririk.
+            Biz yalnız müştərilərimizə HP, Asus, Samsung, Acer, Lenovo, Gigabyte, Evga, MSİ və digər dünya brendlərinin
+            istehsalı olan texnikanı təklif edirik.
+
+            Elektronika mağaza dedikdə ilk öncə elektron mallar nəzərdə tutulur. Biz saytımızda hər gün yenilənmə
+            apararaq geniş çeşiddə texnikanı müştərilərmizə təqdim edirik. Ən son kompüter texnikası haqqında məlumat
+            almaq istəyirsinizsə onda dükanımızla əlaqə saxlayın. Biz satdığımız hər bir texnikaya rəsmi zəmanət
+            veririk. Xoşunuza gəlməyən və qüsuru olan texnikanı 14 gün müddətində dərhal dəyişirik və ya pulunuzu geri
+            qaytarırıq. Bakı və Azərbaycan ərazisinə 1 gün ərzində sifarişi çatdırırıq.
+
+            Bizim kompüter mağazası sizə münasib şərtlərlə kompüter texnikası və digər ofis avadanlıqlarını kreditə
+            satışını təklif edir. Daha ətraflı məlumat üçün menecerlərimizlə əlaqə saxlayın. Sifarişiniz 100 AZN
+            məbləğindən çox olarsa Bakının istənilən yerinə pulsuz çatdırılma edirik.
+
+            «iComp» Kompüter mağazası sizə kompüter satışından əlavə olaraq digər xidmətləri də təqdim edir. Firmamızın
+            mütəxəssisləri, sizin kompüter və ofis texnikanıza professional, kompleks diaqnostikasını və təmirini həyata
+            keçirir. Bizim mütəxəssislərimiz qısa zaman kəsiyində sizin texnikanın ən çətin problemini aradan qaldıracaq
+            və tam işlək vəziyyətə gətirəcəklər.</p>
+          <h4>«iComp» kompüter mağazası. Kompüter və elektronikanın yeganə satış ünvanı
+          </h4>
+          <p>«iComp» kompüter mağazası avadanlığı və elektronika satışı. Siz həqiqətən brend texnikanı və kompüter
+            avadanlığını digər dükanlardan daha ucuz qiymətə Bakıda bizdən sifariş edə bilərsiz. Bizim menecerlərimiz
+            sizə lazım və uyğun olan texnikanı sizə sərfəli qiymətə təklif edəcəkdir. Həfta içi hər gün 10.00-dan 19.00
+            dək işləyirik. Bazar günləri isə istirahət günüdür.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div  class="container"> 
+      <div class="row text-center sryk mt-4 mb-4 flex-column flex-md-row ">
+        <div class="col-12 col-md-3">
+          <img src="asset/img/s1.png" >
+          <span>SÜRƏTLİ ÇATDIRILMA</span>
+        </div>
+        <div class="col-12 col-md-3">
+          <img src="asset/img/s2.png" >
+          <span>RƏSMİ ZƏMANƏT</span>
+        </div>
+        <div class="col-12 col-md-3">
+          <img src="asset/img/s3.png" >
+          <span>KREDİTLƏ SATIŞ</span>
+        </div>
+        <div class="col-12 col-md-3">
+          <img src="asset/img/s4.png" >
+          <span>YÜKSƏK KEYFİYYƏT</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid follow-news pt-4 pb-4">
+      <div class="d-flex justify-content-lg-between  ms-3 me-4 flex-wrap flex-md-nowrap justify-content-center">
+        <div class="d-flex me-3">
+          <img src="asset/img/deal.svg" class="pe-2">
+          <div>
+            <p>Bülleten üçün qeydiyyatdan keçin</p> 
+            <h3> və bütün təklif və promosyonlardan xəbərdar olun</h3>
+          </div>     
+        </div>
+        <form action="#" method="POST">
+              <input class="me-3" type="email" placeholder="Email">
+              <button>Bülletenə abunə olun</button>
+        </form>
+       
+       
+        
+      </div>
+    </div>
+
+    <div class="container-fluid main-footer bt-4 mt-3"> 
+      <div class="row ">
+        <div class="col-12 col-lg-4">
+          <p>Diqqət!! Malın xarici gorunüşü və komplektləşdirilməsi istehlakçıya xəbərdarlıq edilmədən istehsalçı tərəfindən dəyişdirilə bilər. Sifariş zamanı saytımızda göstərilən texniki göstəriciləri, İstehsalçının rəsmi saytındakı göstəricilərlə yoxlayın!
+            Sifariş zamanı malın dükanımızda olmağı barədə telefon və ya online-chat vasitəsilə dəqiqləşdirin!s</p>
+        </div>
+        <div class="col-12 col-lg-4 d-flex justify-content-center">
+            <ul>
+                <li> <a href="#">ZƏMANƏT</a></li>
+                <li> <a href="#">SUALLAR VƏ CAVABLAR</a></li>
+                <li> <a href="#">GÖNDƏRMƏ VƏ ÖDƏNİŞ</a></li>
+                <li> <a href="#">HİSSƏ-HİSSƏ ÖDƏMƏ</a></li>
+            </ul>
+            <ul>
+              <li> <a href="#">PRAYS LİST</a></li>
+              <li> <a href="#">DÜKANIMIZ HAQQINDA</a></li>
+              <li> <a href="#">TƏRƏFDAŞLARIMIZ ÜÇÜN</a></li>
+              <li> <a href="#">ƏLAQƏ</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 ">
+          <span>Bülbül 58D</span><br>
+          <span style="font-size: 12px;color:#777">(Dəri Zöhrəvi dispanserdən 50 metr aşağı)</span><br>
+          <a href="#" style="font-size: 12px;"> (Dükanımız xəritədə)</a><br>
+          <a href="#"><img src="asset/img/facebook.svg" alt="fb"></a>
+          <a href="#"><img src="asset/img//instagram.svg" alt="insta"></a>
+        </div>
+        <div class="col-6 col-lg-2 ">
+          <span><i class="fab fa-whatsapp"></i></span>
+          <span>+994 (70) 244 47 47</span> <br>
+          <span>+994 (012) 598 27 47</span> <br>
+          <button>Zəng sifarişi <span><img src="asset/img/headset.svg" ></span></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-lg-row justify-content-around pt-4 pb-4 align-items-center">
+      <img class="logo" src="asset/img/logo.svg" >
+      <span> © 2021 iComp.az Bakıda Kompüter internet-maqazini</span>
+      <span><img src="asset/img/smartphone.svg"> Mobil versiya</span>
+      <span class="mb-2 mb-lg-0"><a href="#">Web Development Agency-GetWebDevelop</a></span>
+      <img alt="LiveInternet counter" id="licntAC5F" width="88" height="31" style="border:0" title="LiveInternet: показано число просмотров и посетителей за 24 часа" src="https://counter.yadro.ru/hit?t52.11;r;s1280*720*24;uhttps%3A//icomp.az/;hBak%u0131da%20komp%FCter%20maqazini%2C%20ucuz%20qiym%u0259t%u0259%20noutbuklar%2C%20plan%u015Fetl%u0259r%2C%20monitorlar%20v%u0259%20dig%u0259r%20texnika.;0.3618629481029927">
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="asset/js/script.js"></script>
+</body>
+
+</html>
